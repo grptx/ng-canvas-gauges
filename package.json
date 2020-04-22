@@ -1,7 +1,7 @@
 {
   "name": "ng-canvas-gauges",
-  "version": "6.0.4",
-  "description": "Angular 6+ component wrapper for the canvas-gauges lib written by @Mikhus",
+  "version": "6.0.5",
+  "description": "Angular 9+ component wrapper for the canvas-gauges lib written by @Mikhus",
   "scripts": {
     "build:example": "ng build example",
     "build:lib": "ng build ng-canvas-gauges",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MeetmeLeave/ng-canvas-gauges.git"
+    "url": "https://github.com/biacsics/ng-canvas-gauges.git"
   },
   "keywords": [
     "Angular",
@@ -28,8 +28,7 @@
   "author": "vladimir.martynenko.work@gmail.com",
   "contributors": [
     {
-      "name": "Wayne Parrott",
-      "url": "http://wayneparrott.com"
+      "name": "Markus Biacsics"
     }
   ],
   "license": "MIT",
