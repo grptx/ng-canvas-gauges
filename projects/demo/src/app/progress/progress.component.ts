@@ -1,7 +1,6 @@
 import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 import { interval, Observable } from 'rxjs';
 import { map, tap } from 'rxjs/operators';
-import { ViewRef } from '@angular/core/src/render3/view_ref';
 import { RadialGauge, RadialGaugeOptions } from 'ng-canvas-gauges';
 
 /**
@@ -14,7 +13,7 @@ import { RadialGauge, RadialGaugeOptions } from 'ng-canvas-gauges';
 })
 export class ProgressComponent implements OnInit, AfterViewInit {
 
-  @ViewChild('progress_gauge')
+  @ViewChild('progress_gauge', { static: true })
   private radialGauge: RadialGauge;
 
   public value$: Observable<number>;
@@ -34,5 +33,5 @@ export class ProgressComponent implements OnInit, AfterViewInit {
       tap(i => this.radialGauge.update( { valueText: i } ))
     );
   }
-  
+
 }

@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 
-import { ViewChild, Input, NgZone, ElementRef, OnInit, AfterViewInit } from '@angular/core';
+import { ViewChild, Input, NgZone, ElementRef, OnInit, AfterViewInit, Directive } from '@angular/core';
 import * as CanvasGauges from 'canvas-gauges';
 import * as Rx from 'rx-dom-html';
 
@@ -43,13 +43,14 @@ const attributeName2PropertyName = (attrName: string) => toCamelCase(attrName);
  * T - Type of the Gauge to be rendered (Currently RadialGauge, LinearGauge from the original library)
  * T2 - Type of config options used by the particular gauge (RadialGaugeOptions, LinearGaugeOptions)
  */
+@Directive()
 export abstract class BaseGauge<T extends CanvasGauges.BaseGauge, T2 extends CanvasGauges.GenericOptions>
     implements OnInit, AfterViewInit {
 
     /**
      * Canvas element on the template used by the library to draw gauge element
      */
-    @ViewChild('gauge')
+    @ViewChild('gauge', { static: true })
     protected canvas: ElementRef;
 
     /**

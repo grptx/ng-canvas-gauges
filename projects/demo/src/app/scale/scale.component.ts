@@ -14,7 +14,7 @@ import { RadialGauge } from 'ng-canvas-gauges';
 })
 export class ScaleComponent implements OnInit, AfterViewInit {
 
-  @ViewChild('scale_gauge')
+  @ViewChild('scale_gauge', { static: true })
   private radialGauge: RadialGauge;
 
   public scaleGaugeOptions: any;

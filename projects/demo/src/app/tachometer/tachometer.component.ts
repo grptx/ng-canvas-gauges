@@ -12,7 +12,7 @@ import { RadialGauge } from 'ng-canvas-gauges';
 })
 export class TachometerComponent implements OnInit, AfterViewInit {
 
-  @ViewChild('tachometer')
+  @ViewChild('tachometer', { static: true })
   private tachometer: RadialGauge;
 
 
