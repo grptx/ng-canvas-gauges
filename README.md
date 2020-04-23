@@ -1,9 +1,9 @@
-### Angular 6+ component wrapper for [@Mikhus'](https://github.com/Mikhus/canvas-gauges) canvas-gauges library.
-
+### Angular 9+ component wrapper for [@Mikhus'](https://github.com/Mikhus/canvas-gauges) canvas-gauges library.
+### a fork from https://github.com/MeetmeLeave/ng-canvas-gauges to support angular 9.x
 ### Getting Started
-1. Install the package in your angular 6 or greater app
+1. Install the package in your angular 9 or greater app
 ~~~
-npm install ng-canvas-gauges
+npm install @biacsics/ng-canvas-gauges
 ~~~
 2. Import the GaugesModule to your AppModule file and register it in the imports:
 
@@ -12,7 +12,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 
-import {GaugesModule} from 'ng-canvas-gauges';
+import {GaugesModule} from '@biacsics/ng-canvas-gauges';
 
 @NgModule({
     declarations: [
@@ -87,7 +87,7 @@ programmatically (camelCase format). Learn more: [https://canvas-gauges.com/docu
 
 ------------------------------------------------------
 ## Build
-This repo layout is based on an Angular 6 or greater workspace consists of the ng-canvas-gauge library project
+This repo layout is based on an Angular 9.x or greater workspace consists of the ng-canvas-gauge library project
 and a demo angular app project. 
 
 1. Install dependencies
@@ -105,7 +105,7 @@ npm run build:package
 
 ## Special Thanks
 
-The upgrade of this library to angular 6+ and the demos project were developed using 
+The upgrade of this library to angular 9.x and the demos project were developed using 
 [CodeMix](https://www.genuitec.com/products/codemix/).
 
 [![Lohika](http://www.lohika.com/wp-content/themes/gridalicious/images/lohika_full.svg)](http://www.lohika.com/)
