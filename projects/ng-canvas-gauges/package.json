@@ -1,5 +1,5 @@
 {
-  "name": "ng-canvas-gauge-extended",
+  "name": "ng-canvas-gauges-extend",
   "version": "6.0.5",
   "description": "Angular 9+ component wrapper for the canvas-gauges lib written by @Mikhus",
   "repository": {

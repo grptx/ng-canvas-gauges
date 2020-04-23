@@ -1,5 +1,5 @@
 {
-  "name": "ng-canvas-gauge-extended",
+  "name": "@biacsics/ng-canvas-gauges-extend",
   "version": "6.0.5",
   "description": "Angular 9+ component wrapper for the canvas-gauges lib written by @Mikhus",
   "scripts": {
@@ -9,13 +9,13 @@
     "postbuild:lib": "cp -f ./LICENSE  ./README.md ./gauges.png ./gauges.gif ./dist/ng-canvas-gauges",
     "build:pack": "cd dist/ng-canvas-gauges && npm pack",
     "build:package": "npm run build:lib && npm run build:pack",
-    "postbuild:package": "mkdir -p lib && cp dist/ng-canvas-gauges/ng-canvas-gauges-*.tgz lib",
+    "postbuild:package": "mkdir lib && cp dist/ng-canvas-gauges/ng-canvas-gauges-*.tgz lib",
     "clean": "rm -rf dist/ lib/",
     "start": "ng serve"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/biacsics/ng-canvas-gauges.git"
+    "url": "git+https://github.com/biacsics/ng-canvas-gauges.git"
   },
   "keywords": [
     "Angular",
@@ -27,9 +27,7 @@
   ],
   "author": "vladimir.martynenko.work@gmail.com",
   "contributors": [
-    {
-      "name": "Markus Biacsics"
-    }
+    "Markus Biacsics"
   ],
   "license": "MIT",
   "bugs": {
@@ -65,5 +63,9 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.8.3"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
   }
 }
