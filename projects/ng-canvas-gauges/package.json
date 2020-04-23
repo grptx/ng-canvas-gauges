@@ -1,6 +1,6 @@
 {
-  "name": "ng-canvas-gauges",
-  "version": "6.0.5",
+  "name": "@biacsics/ng-canvas-gauges",
+  "version": "6.0.7",
   "description": "Angular 9+ component wrapper for the canvas-gauges lib written by @Mikhus",
   "repository": {
     "type": "git",
