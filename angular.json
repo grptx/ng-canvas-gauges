@@ -10,7 +10,7 @@
       "prefix": "",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/ng-canvas-gauges/tsconfig.lib.json",
             "project": "projects/ng-canvas-gauges/ng-package.json"
@@ -148,5 +148,8 @@
       }
     }
   },
-  "defaultProject": "ng-canvas-gauges"
+  "defaultProject": "ng-canvas-gauges",
+  "cli": {
+    "analytics": "fd800ee5-910c-4f04-b8c5-83d5e94e0a90"
+  }
 }

@@ -23,11 +23,11 @@
   },
   "homepage": "https://github.com/MeetmeLeave/ng-canvas-gauges",
   "peerDependencies": {
-    "@angular/common": ">=13.0.0",
-    "@angular/core": ">=13.0.0"
+    "@angular/common": ">=14.0.0",
+    "@angular/core": ">=14.0.0"
   },
   "dependencies": {
-    "@types/canvas-gauges": "^2.1.2",
+    "@types/canvas-gauges": "^2.1.4",
     "canvas-gauges": "^2.1.7",
     "rx-dom-html": "^7.0.3"
   }
