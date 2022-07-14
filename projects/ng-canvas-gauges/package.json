@@ -1,7 +1,7 @@
 {
   "name": "@mousazadeh/ng-canvas-gauges",
-  "version": "13",
-  "description": "Angular 13+ component wrapper for the canvas-gauges lib written by @Mikhus",
+  "version": "14",
+  "description": "Angular 14+ component wrapper for the canvas-gauges lib written by @Mikhus",
   "repository": {
     "type": "git",
     "url": "https://github.com/mousazadeh/ng-canvas-gauges.git"
