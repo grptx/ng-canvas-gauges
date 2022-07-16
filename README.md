@@ -3,7 +3,7 @@
 ### Getting Started
 1. Install the package in your angular 14 or greater app
 ~~~
-npm install @biacsics/ng-canvas-gauges
+npm install @mousazadeh/ng-canvas-gauges
 ~~~
 2. Import the GaugesModule to your AppModule file and register it in the imports:
 
@@ -12,7 +12,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 
-import {GaugesModule} from '@biacsics/ng-canvas-gauges';
+import {GaugesModule} from '@mousazadeh/ng-canvas-gauges';
 
 @NgModule({
     declarations: [
