@@ -1,6 +1,6 @@
 {
   "name": "@mousazadeh/ng-canvas-gauges",
-  "version": "14.0.2",
+  "version": "14.0.3",
   "description": "Angular 14+ component wrapper for the canvas-gauges lib written by @Mikhus",
   "scripts": {
     "build:example": "ng build example",
@@ -9,7 +9,7 @@
     "postbuild:lib": "cp -f ./LICENSE  ./README.md ./gauges.png ./gauges.gif ./dist/ng-canvas-gauges",
     "build:pack": "cd dist/ng-canvas-gauges && npm pack",
     "build:package": "npm run build:lib && npm run build:pack",
-    "postbuild:package": "mkdir lib && cp dist/ng-canvas-gauges/biacsics-ng-canvas-gauges-*.tgz lib",
+    "postbuild:package": "mkdir lib && cp dist/ng-canvas-gauges/mousazadeh-ng-canvas-gauges-*.tgz lib",
     "clean": "rm -rf dist/ lib/",
     "start": "ng serve"
   },
