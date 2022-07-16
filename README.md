@@ -1,5 +1,5 @@
 ### Angular 14+ component wrapper for [@Mikhus'](https://github.com/Mikhus/canvas-gauges) canvas-gauges library.
-### a fork from https://github.com/MeetmeLeave/ng-canvas-gauges to support angular 14.x
+### a fork from https://github.com/biacsics/ng-canvas-gauges to support angular 14.x
 ### Getting Started
 1. Install the package in your angular 14 or greater app
 ~~~

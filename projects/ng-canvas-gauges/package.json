@@ -1,16 +1,20 @@
 {
   "name": "@mousazadeh/ng-canvas-gauges",
-  "version": "13.0.0",
-  "description": "Angular 13+ component wrapper for the canvas-gauges lib written by @Mikhus",
+  "version": "14.0.6",
+  "description": "Angular 14+ component wrapper for the canvas-gauges lib written by @Mikhus",
   "repository": {
     "type": "git",
     "url": "https://github.com/mousazadeh/ng-canvas-gauges.git"
   },
   "keywords": [
     "Angular",
+    "Angular 13",
+    "Angular 14",
     "Canvas",
-    "Gauges", "Thermometer",
-    "Meter", "Speedometer"
+    "Gauges",
+    "Thermometer",
+    "Meter",
+    "Speedometer"
   ],
   "author": "al.mousazadeh@gmail.com",
   "contributors": [
@@ -23,8 +27,8 @@
   },
   "homepage": "https://github.com/MeetmeLeave/ng-canvas-gauges",
   "peerDependencies": {
-    "@angular/common": ">=13.0.0",
-    "@angular/core": ">=13.0.0"
+    "@angular/common": ">=14.0.0",
+    "@angular/core": ">=14.0.0"
   },
   "dependencies": {
     "@types/canvas-gauges": "^2.1.4",
