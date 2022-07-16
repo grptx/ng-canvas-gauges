@@ -2,6 +2,12 @@ npm-debug.log
 node_modules
 jspm_packages
 .idea
+/.angular
+/.angular/
+/.angular/*
+.angular
+.angular/
+.angular/*
 build
 *.log
 
