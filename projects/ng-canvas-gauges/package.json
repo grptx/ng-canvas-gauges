@@ -17,7 +17,9 @@
     "Meter",
     "Speedometer",
     "Angular 13 gauge",
-    "Angular 14 gauge"
+    "Angular 14 gauge",
+    "Angular 13 gauges",
+    "Angular 14 gauges"
   ],
   "author": "al.mousazadeh@gmail.com",
   "contributors": [
@@ -26,9 +28,9 @@
     }],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MeetmeLeave/ng-canvas-gauges/issues"
+    "url": "https://github.com/mousazadeh/ng-canvas-gauges/issues"
   },
-  "homepage": "https://github.com/MeetmeLeave/ng-canvas-gauges",
+  "homepage": "https://github.com/mousazadeh/ng-canvas-gauges",
   "peerDependencies": {
     "@angular/common": ">=14.0.0",
     "@angular/core": ">=14.0.0"
