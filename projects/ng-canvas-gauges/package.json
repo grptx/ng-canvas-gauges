@@ -11,10 +11,13 @@
     "Angular 13",
     "Angular 14",
     "Canvas",
+    "Gauge",
     "Gauges",
     "Thermometer",
     "Meter",
-    "Speedometer"
+    "Speedometer",
+    "Angular 13 gauge",
+    "Angular 14 gauge"
   ],
   "author": "al.mousazadeh@gmail.com",
   "contributors": [
