@@ -1,6 +1,6 @@
 {
   "name": "@mousazadeh/ng-canvas-gauges",
-  "version": "14.0.7",
+  "version": "14.0.8",
   "description": "Angular 14+ component wrapper for the canvas-gauges lib written by @Mikhus",
   "scripts": {
     "build:example": "ng build example",
