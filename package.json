@@ -1,5 +1,5 @@
 {
-  "name": "@mousazadeh/ng-canvas-gauges",
+  "name": "@grptx/ng-canvas-gauges",
   "version": "14.0.8",
   "description": "Angular 14+ component wrapper for the canvas-gauges lib written by @Mikhus",
   "scripts": {
@@ -9,14 +9,14 @@
     "postbuild:lib": "cp -f ./LICENSE  ./README.md ./gauges.png ./gauges.gif ./dist/ng-canvas-gauges",
     "build:pack": "cd dist/ng-canvas-gauges && npm pack",
     "build:package": "npm run build:lib && npm run build:pack",
-    "postbuild:package": "mkdir lib && cp dist/ng-canvas-gauges/mousazadeh-ng-canvas-gauges-*.tgz lib",
+    "postbuild:package": "mkdir lib && cp dist/ng-canvas-gauges/grptx-ng-canvas-gauges-*.tgz lib",
     "publish": "npm publish --access public",
     "clean": "rm -rf dist/ lib/",
     "start": "ng serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mousazadeh/ng-canvas-gauges.git"
+    "url": "git+https://github.com/grptx/ng-canvas-gauges.git"
   },
   "keywords": [
     "Angular",
@@ -33,15 +33,15 @@
     "Angular 13 gauges",
     "Angular 14 gauges"
   ],
-  "author": "al.mousazadeh@gmail.com",
+  "author": "al.grptx@gmail.com",
   "contributors": [
-    "Alireza Mousazadeh"
+    "Alireza grptx"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mousazadeh/ng-canvas-gauges/issues"
+    "url": "https://github.com/grptx/ng-canvas-gauges/issues"
   },
-  "homepage": "https://github.com/mousazadeh/ng-canvas-gauges",
+  "homepage": "https://github.com/grptx/ng-canvas-gauges",
   "dependencies": {
     "@angular/animations": "~14.0.5",
     "@angular/common": "~14.0.5",

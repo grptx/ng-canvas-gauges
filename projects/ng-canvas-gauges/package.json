@@ -1,10 +1,10 @@
 {
-  "name": "@mousazadeh/ng-canvas-gauges",
+  "name": "@grptx/ng-canvas-gauges",
   "version": "14.0.8",
   "description": "Angular 14+ component wrapper for the canvas-gauges lib written by @Mikhus",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mousazadeh/ng-canvas-gauges.git"
+    "url": "https://github.com/grptx/ng-canvas-gauges.git"
   },
   "keywords": [
     "Angular",
@@ -21,16 +21,16 @@
     "Angular 13 gauges",
     "Angular 14 gauges"
   ],
-  "author": "al.mousazadeh@gmail.com",
+  "author": "al.grptx@gmail.com",
   "contributors": [
     {
-      "name": "Alireza Mousazadeh"
+      "name": "Alireza grptx"
     }],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mousazadeh/ng-canvas-gauges/issues"
+    "url": "https://github.com/grptx/ng-canvas-gauges/issues"
   },
-  "homepage": "https://github.com/mousazadeh/ng-canvas-gauges",
+  "homepage": "https://github.com/grptx/ng-canvas-gauges",
   "peerDependencies": {
     "@angular/common": ">=14.0.0",
     "@angular/core": ">=14.0.0"
